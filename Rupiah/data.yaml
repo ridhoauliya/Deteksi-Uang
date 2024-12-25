@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['dua puluh ribu rupiah', 'dua ribu rupiah', 'lima puluh ribu rupiah', 'lima ribu rupiah', 'sepuluh ribu rupiah', 'seratus ribu rupiah', 'seribu rupiah']
+
+roboflow:
+  workspace: rupiah-detection-qn6q3
+  project: rupiah-detection-095w4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rupiah-detection-qn6q3/rupiah-detection-095w4/dataset/1
